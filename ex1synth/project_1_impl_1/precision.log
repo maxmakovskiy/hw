@@ -1,0 +1,4 @@
+# Info: [9566]: Logging project transcript to file F:/digital electronics/ex1synth/project_1_impl_1/precision.log
+# Info: [9566]: Logging suppressed messages transcript to file F:/digital electronics/ex1synth/project_1_impl_1/precision.log.suppressed
+# Info: [9550]: Activated implementation project_1_impl_1 in project F:/digital electronics/ex1synth/project_1.psp.
+new_project -name project_1 -folder "F:/digital electronics/ex1synth" -createimpl_name project_1_impl_1

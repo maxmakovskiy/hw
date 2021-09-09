@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, F:/digital_electronics/fsm_32/fsm32.sv
+source_file = 1, F:/digital_electronics/fsm_32/testvectors.tv
+source_file = 1, F:/digital_electronics/fsm_32/fsm32_tb.sv
+source_file = 1, F:/digital_electronics/fsm_32/fsm32_simulation.txt
+source_file = 1, F:/digital_electronics/fsm_32/fsm32_simulation.do
+source_file = 1, F:/digital_electronics/fsm_32/db/fsm32.cbx.xml
+design_name = fsm32
+instance = comp, \q~output , q~output, fsm32, 1
+instance = comp, \a~input , a~input, fsm32, 1
+instance = comp, \b~input , b~input, fsm32, 1
+instance = comp, \clk~input , clk~input, fsm32, 1
+instance = comp, \reset~input , reset~input, fsm32, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, fsm32, 1

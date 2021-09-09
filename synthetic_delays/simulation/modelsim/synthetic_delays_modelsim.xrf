@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, F:/digital electronics/synthetic_delays/synthetic_delays.sv
+source_file = 1, F:/digital electronics/synthetic_delays/synthetic_delays_tb.sv
+source_file = 1, F:/digital electronics/synthetic_delays/db/synthetic_delays.cbx.xml
+design_name = synthetic_delays
+instance = comp, \y~output , y~output, synthetic_delays, 1
+instance = comp, \a~input , a~input, synthetic_delays, 1
+instance = comp, \b~input , b~input, synthetic_delays, 1
+instance = comp, \c~input , c~input, synthetic_delays, 1
+instance = comp, \y~0 , y~0, synthetic_delays, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, synthetic_delays, 1

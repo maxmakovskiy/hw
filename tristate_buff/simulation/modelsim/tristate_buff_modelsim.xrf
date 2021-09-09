@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, F:/digital electronics/tristate_buff/tristate_buff_tb.sv
+source_file = 1, F:/digital electronics/tristate_buff/tristate_buff.sv
+source_file = 1, F:/digital electronics/tristate_buff/db/tristate_buff.cbx.xml
+design_name = tristate_buff
+instance = comp, \y[0]~output , y[0]~output, tristate_buff, 1
+instance = comp, \y[1]~output , y[1]~output, tristate_buff, 1
+instance = comp, \a[0]~input , a[0]~input, tristate_buff, 1
+instance = comp, \en~input , en~input, tristate_buff, 1
+instance = comp, \a[1]~input , a[1]~input, tristate_buff, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, tristate_buff, 1

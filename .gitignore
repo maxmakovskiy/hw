@@ -32,8 +32,8 @@
 
 # software binary files
 
-/*
-!.gitignore
+#/*
+#!.gitignore
 ##
 #*.qpf
 #*.qsf
@@ -41,15 +41,19 @@
 #*.bdf
 #*.vhd
 #*.v
-#*.vs
+#!**/*.vs
 #*.ptf
 #*.bsf
 #**/class.ptf
 #*.tbd
 #*.sof
 ## tbd
+#!*.tcl
 
-!*.tcl
+/**/db
+/**/incremental_db
+/**/output_files
+
 
 # Unique
 My_Designs/
@@ -63,18 +67,18 @@ My_Designs/
 *.dat
 *.dbs
 *.psm
-*.bak
+*.bak*
 *.cmp
 *.jpg
 *.html
 *.bsf
 
 # ignore simulation output of ModelSim
-wlf*
+*wlf*
 *.wlf
 *.vstf
 *.ucdb
-cov*/
-transcript*
+*cov*/
+*transcript*
 sc_dpiheader.h
 vsim.dbg

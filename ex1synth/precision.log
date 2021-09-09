@@ -1,0 +1,25 @@
+# Info: [9566]: Logging session transcript to file G:/MentorGraphics/PS2015.2.10_64-bit/Mgc_home/shared/examples/precision.log
+//  Precision RTL Synthesis 64-bit 2015.2.10 (Production Release) Tue Nov  3 06:31:13 PST 2015
+//  
+//  Copyright (c) Mentor Graphics Corporation, 1996-2015, All Rights Reserved.
+//             Portions copyright 1991-2008 Compuware Corporation
+//                       UNPUBLISHED, LICENSED SOFTWARE.
+//            CONFIDENTIAL AND PROPRIETARY INFORMATION WHICH IS THE
+//          PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+//  
+//  Running on  Xemerius@DESKTOP-U9C8A8F  6.02.9200 
+//  
+//  Start time Sat Aug 14 20:20:48 2021
+# -------------------------------------------------
+# Info: [9566]: Logging session transcript to file G:/MentorGraphics/PS2015.2.10_64-bit/Mgc_home/shared/examples/precision.log
+# COMMAND: new_project -name project_1 -folder "F:/digital electronics/ex1synth" -createimpl_name project_1_impl_1
+# Info: [9574]: Input directory: F:/digital electronics/ex1synth
+# Info: [9569]: Moving session transcript to file F:/digital electronics/ex1synth/precision.log
+# Info: [9555]: Created project F:/digital electronics/ex1synth/project_1.psp in folder F:/digital electronics/ex1synth.
+# Info: [9531]: Created directory: F:/digital electronics/ex1synth/project_1_impl_1.
+# Info: [9554]: Created implementation project_1_impl_1 in project F:/digital electronics/ex1synth/project_1.psp.
+# Info: [9575]: The Results Directory has been set to: F:/digital electronics/ex1synth/project_1_impl_1/
+# Info: [9566]: Logging project transcript to file F:/digital electronics/ex1synth/project_1_impl_1/precision.log
+# Info: [9566]: Logging suppressed messages transcript to file F:/digital electronics/ex1synth/project_1_impl_1/precision.log.suppressed
+# Info: [9550]: Activated implementation project_1_impl_1 in project F:/digital electronics/ex1synth/project_1.psp.
+new_project -name project_1 -folder "F:/digital electronics/ex1synth" -createimpl_name project_1_impl_1

@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, F:/digital electronics/gates/bit_gates/gates.sv
+source_file = 1, F:/digital electronics/gates/bit_gates/gates_tb.sv
+source_file = 1, F:/digital electronics/gates/bit_gates/db/gates.cbx.xml
+design_name = gates
+instance = comp, \y1~output , y1~output, gates, 1
+instance = comp, \y2~output , y2~output, gates, 1
+instance = comp, \y3~output , y3~output, gates, 1
+instance = comp, \y4~output , y4~output, gates, 1
+instance = comp, \y5~output , y5~output, gates, 1
+instance = comp, \b~input , b~input, gates, 1
+instance = comp, \a~input , a~input, gates, 1
+instance = comp, \y1~0 , y1~0, gates, 1
+instance = comp, \y2~0 , y2~0, gates, 1
+instance = comp, \y3~0 , y3~0, gates, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, gates, 1

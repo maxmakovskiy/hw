@@ -1,0 +1,249 @@
+// Copyright (C) 2020  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and any partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details, at
+// https://fpgasoftware.intel.com/eula.
+
+// PROGRAM		"Quartus Prime"
+// VERSION		"Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition"
+// CREATED		"Thu Sep 02 16:58:43 2021"
+
+module prefixadder8bits(
+	cin,
+	a0,
+	b0,
+	a1,
+	b1,
+	a2,
+	b2,
+	a3,
+	b3,
+	a4,
+	b4,
+	a5,
+	b5,
+	a6,
+	b6,
+	a7,
+	b7,
+	s0,
+	s1,
+	s2,
+	s3,
+	s4,
+	s5,
+	s6,
+	s7
+);
+
+
+input wire	cin;
+input wire	a0;
+input wire	b0;
+input wire	a1;
+input wire	b1;
+input wire	a2;
+input wire	b2;
+input wire	a3;
+input wire	b3;
+input wire	a4;
+input wire	b4;
+input wire	a5;
+input wire	b5;
+input wire	a6;
+input wire	b6;
+input wire	a7;
+input wire	b7;
+output wire	s0;
+output wire	s1;
+output wire	s2;
+output wire	s3;
+output wire	s4;
+output wire	s5;
+output wire	s6;
+output wire	s7;
+
+wire	SYNTHESIZED_WIRE_72;
+wire	SYNTHESIZED_WIRE_73;
+wire	SYNTHESIZED_WIRE_2;
+wire	SYNTHESIZED_WIRE_74;
+wire	SYNTHESIZED_WIRE_4;
+wire	SYNTHESIZED_WIRE_5;
+wire	SYNTHESIZED_WIRE_75;
+wire	SYNTHESIZED_WIRE_10;
+wire	SYNTHESIZED_WIRE_11;
+wire	SYNTHESIZED_WIRE_13;
+wire	SYNTHESIZED_WIRE_14;
+wire	SYNTHESIZED_WIRE_15;
+wire	SYNTHESIZED_WIRE_76;
+wire	SYNTHESIZED_WIRE_17;
+wire	SYNTHESIZED_WIRE_77;
+wire	SYNTHESIZED_WIRE_20;
+wire	SYNTHESIZED_WIRE_78;
+wire	SYNTHESIZED_WIRE_22;
+wire	SYNTHESIZED_WIRE_23;
+wire	SYNTHESIZED_WIRE_79;
+wire	SYNTHESIZED_WIRE_28;
+wire	SYNTHESIZED_WIRE_29;
+wire	SYNTHESIZED_WIRE_30;
+wire	SYNTHESIZED_WIRE_80;
+wire	SYNTHESIZED_WIRE_81;
+wire	SYNTHESIZED_WIRE_34;
+wire	SYNTHESIZED_WIRE_35;
+wire	SYNTHESIZED_WIRE_36;
+wire	SYNTHESIZED_WIRE_82;
+wire	SYNTHESIZED_WIRE_41;
+wire	SYNTHESIZED_WIRE_83;
+wire	SYNTHESIZED_WIRE_44;
+wire	SYNTHESIZED_WIRE_45;
+wire	SYNTHESIZED_WIRE_46;
+wire	SYNTHESIZED_WIRE_47;
+wire	SYNTHESIZED_WIRE_48;
+wire	SYNTHESIZED_WIRE_49;
+wire	SYNTHESIZED_WIRE_50;
+wire	SYNTHESIZED_WIRE_84;
+wire	SYNTHESIZED_WIRE_55;
+wire	SYNTHESIZED_WIRE_56;
+wire	SYNTHESIZED_WIRE_85;
+wire	SYNTHESIZED_WIRE_61;
+wire	SYNTHESIZED_WIRE_62;
+wire	SYNTHESIZED_WIRE_64;
+wire	SYNTHESIZED_WIRE_65;
+wire	SYNTHESIZED_WIRE_66;
+wire	SYNTHESIZED_WIRE_67;
+wire	SYNTHESIZED_WIRE_68;
+wire	SYNTHESIZED_WIRE_69;
+wire	SYNTHESIZED_WIRE_71;
+
+
+
+
+assign	SYNTHESIZED_WIRE_50 = a0 & b0;
+
+assign	SYNTHESIZED_WIRE_73 = b1 | a1;
+
+assign	SYNTHESIZED_WIRE_2 = SYNTHESIZED_WIRE_72 & SYNTHESIZED_WIRE_73;
+
+assign	SYNTHESIZED_WIRE_4 = SYNTHESIZED_WIRE_2 | SYNTHESIZED_WIRE_74;
+
+assign	s2 = SYNTHESIZED_WIRE_4 ^ SYNTHESIZED_WIRE_5;
+
+assign	SYNTHESIZED_WIRE_5 = a2 ^ b2;
+
+assign	SYNTHESIZED_WIRE_11 = a2 & b2;
+
+assign	SYNTHESIZED_WIRE_75 = b2 | a2;
+
+assign	SYNTHESIZED_WIRE_10 = SYNTHESIZED_WIRE_75 & SYNTHESIZED_WIRE_74;
+
+assign	SYNTHESIZED_WIRE_13 = SYNTHESIZED_WIRE_73 & SYNTHESIZED_WIRE_75;
+
+assign	SYNTHESIZED_WIRE_15 = SYNTHESIZED_WIRE_10 | SYNTHESIZED_WIRE_11;
+
+assign	SYNTHESIZED_WIRE_36 = a0 ^ b0;
+
+assign	SYNTHESIZED_WIRE_14 = SYNTHESIZED_WIRE_72 & SYNTHESIZED_WIRE_13;
+
+assign	SYNTHESIZED_WIRE_76 = SYNTHESIZED_WIRE_14 | SYNTHESIZED_WIRE_15;
+
+assign	SYNTHESIZED_WIRE_17 = a3 ^ b3;
+
+assign	s3 = SYNTHESIZED_WIRE_76 ^ SYNTHESIZED_WIRE_17;
+
+assign	SYNTHESIZED_WIRE_78 = a3 & b3;
+
+assign	SYNTHESIZED_WIRE_77 = b3 | a3;
+
+assign	SYNTHESIZED_WIRE_20 = SYNTHESIZED_WIRE_76 & SYNTHESIZED_WIRE_77;
+
+assign	SYNTHESIZED_WIRE_22 = SYNTHESIZED_WIRE_20 | SYNTHESIZED_WIRE_78;
+
+assign	s4 = SYNTHESIZED_WIRE_22 ^ SYNTHESIZED_WIRE_23;
+
+assign	SYNTHESIZED_WIRE_23 = a4 ^ b4;
+
+assign	SYNTHESIZED_WIRE_69 = b0 | a0;
+
+assign	SYNTHESIZED_WIRE_29 = a4 & b4;
+
+assign	SYNTHESIZED_WIRE_79 = b4 | a4;
+
+assign	SYNTHESIZED_WIRE_28 = SYNTHESIZED_WIRE_79 & SYNTHESIZED_WIRE_78;
+
+assign	SYNTHESIZED_WIRE_81 = SYNTHESIZED_WIRE_77 & SYNTHESIZED_WIRE_79;
+
+assign	SYNTHESIZED_WIRE_80 = SYNTHESIZED_WIRE_28 | SYNTHESIZED_WIRE_29;
+
+assign	SYNTHESIZED_WIRE_34 = SYNTHESIZED_WIRE_30 | SYNTHESIZED_WIRE_80;
+
+assign	SYNTHESIZED_WIRE_30 = SYNTHESIZED_WIRE_76 & SYNTHESIZED_WIRE_81;
+
+assign	s5 = SYNTHESIZED_WIRE_34 ^ SYNTHESIZED_WIRE_35;
+
+assign	SYNTHESIZED_WIRE_35 = a5 ^ b5;
+
+assign	SYNTHESIZED_WIRE_83 = a5 & b5;
+
+assign	s0 = cin ^ SYNTHESIZED_WIRE_36;
+
+assign	SYNTHESIZED_WIRE_82 = b5 | a5;
+
+assign	SYNTHESIZED_WIRE_41 = SYNTHESIZED_WIRE_82 & SYNTHESIZED_WIRE_80;
+
+assign	SYNTHESIZED_WIRE_44 = SYNTHESIZED_WIRE_81 & SYNTHESIZED_WIRE_82;
+
+assign	SYNTHESIZED_WIRE_46 = SYNTHESIZED_WIRE_41 | SYNTHESIZED_WIRE_83;
+
+assign	SYNTHESIZED_WIRE_45 = SYNTHESIZED_WIRE_76 & SYNTHESIZED_WIRE_44;
+
+assign	SYNTHESIZED_WIRE_47 = SYNTHESIZED_WIRE_45 | SYNTHESIZED_WIRE_46;
+
+assign	s6 = SYNTHESIZED_WIRE_47 ^ SYNTHESIZED_WIRE_48;
+
+assign	SYNTHESIZED_WIRE_48 = a6 ^ b6;
+
+assign	SYNTHESIZED_WIRE_56 = a6 & b6;
+
+assign	SYNTHESIZED_WIRE_84 = b6 | a6;
+
+assign	SYNTHESIZED_WIRE_72 = SYNTHESIZED_WIRE_49 | SYNTHESIZED_WIRE_50;
+
+assign	SYNTHESIZED_WIRE_55 = SYNTHESIZED_WIRE_84 & SYNTHESIZED_WIRE_83;
+
+assign	SYNTHESIZED_WIRE_85 = SYNTHESIZED_WIRE_82 & SYNTHESIZED_WIRE_84;
+
+assign	SYNTHESIZED_WIRE_62 = SYNTHESIZED_WIRE_55 | SYNTHESIZED_WIRE_56;
+
+assign	SYNTHESIZED_WIRE_61 = SYNTHESIZED_WIRE_85 & SYNTHESIZED_WIRE_80;
+
+assign	SYNTHESIZED_WIRE_64 = SYNTHESIZED_WIRE_81 & SYNTHESIZED_WIRE_85;
+
+assign	SYNTHESIZED_WIRE_66 = SYNTHESIZED_WIRE_61 | SYNTHESIZED_WIRE_62;
+
+assign	SYNTHESIZED_WIRE_65 = SYNTHESIZED_WIRE_76 & SYNTHESIZED_WIRE_64;
+
+assign	SYNTHESIZED_WIRE_67 = SYNTHESIZED_WIRE_65 | SYNTHESIZED_WIRE_66;
+
+assign	s7 = SYNTHESIZED_WIRE_67 ^ SYNTHESIZED_WIRE_68;
+
+assign	SYNTHESIZED_WIRE_68 = a7 ^ b7;
+
+assign	SYNTHESIZED_WIRE_49 = cin & SYNTHESIZED_WIRE_69;
+
+assign	SYNTHESIZED_WIRE_71 = a1 ^ b1;
+
+assign	s1 = SYNTHESIZED_WIRE_72 ^ SYNTHESIZED_WIRE_71;
+
+assign	SYNTHESIZED_WIRE_74 = a1 & b1;
+
+
+endmodule

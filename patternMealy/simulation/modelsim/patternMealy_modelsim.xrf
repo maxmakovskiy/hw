@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, F:/digital_electronics/patternMealy/patternMealy.sv
+source_file = 1, F:/digital_electronics/patternMealy/testvectors.tv
+source_file = 1, F:/digital_electronics/patternMealy/patternMealy_tb.sv
+source_file = 1, F:/digital_electronics/patternMealy/patternMealy_simulation.do
+source_file = 1, F:/digital_electronics/patternMealy/db/patternMealy.cbx.xml
+design_name = patternMealy
+instance = comp, \y~output , y~output, patternMealy, 1
+instance = comp, \a~input , a~input, patternMealy, 1
+instance = comp, \clk~input , clk~input, patternMealy, 1
+instance = comp, \state~0 , state~0, patternMealy, 1
+instance = comp, \reset~input , reset~input, patternMealy, 1
+instance = comp, \y~0 , y~0, patternMealy, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, patternMealy, 1

@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, F:/digital electronics/divider3/divider3.sv
+source_file = 1, F:/digital electronics/divider3/divider3_tb.sv
+source_file = 1, F:/digital electronics/divider3/db/divider3.cbx.xml
+design_name = divider3
+instance = comp, \y~output , y~output, divider3, 1
+instance = comp, \clk~input , clk~input, divider3, 1
+instance = comp, \clk~inputCLKENA0 , clk~inputCLKENA0, divider3, 1
+instance = comp, \state.S1~0 , state.S1~0, divider3, 1
+instance = comp, \reset~input , reset~input, divider3, 1
+instance = comp, \state.S1 , state.S1, divider3, 1
+instance = comp, \state.S2 , state.S2, divider3, 1
+instance = comp, \state.S0~0 , state.S0~0, divider3, 1
+instance = comp, \state.S0 , state.S0, divider3, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, divider3, 1

@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, F:/digital_electronics/patternMoore/test_vectors.tv
+source_file = 1, F:/digital_electronics/patternMoore/patternMoore.sv
+source_file = 1, F:/digital_electronics/patternMoore/patternMoore_tb.sv
+source_file = 1, F:/digital_electronics/patternMoore/patternMoore_simulation.do
+source_file = 1, F:/digital_electronics/patternMoore/db/patternMoore.cbx.xml
+design_name = patternMoore
+instance = comp, \y~output , y~output, patternMoore, 1
+instance = comp, \clk~input , clk~input, patternMoore, 1
+instance = comp, \clk~inputCLKENA0 , clk~inputCLKENA0, patternMoore, 1
+instance = comp, \a~input , a~input, patternMoore, 1
+instance = comp, \state.S1~0 , state.S1~0, patternMoore, 1
+instance = comp, \reset~input , reset~input, patternMoore, 1
+instance = comp, \state.S1 , state.S1, patternMoore, 1
+instance = comp, \nextstate.S2~0 , nextstate.S2~0, patternMoore, 1
+instance = comp, \state.S2 , state.S2, patternMoore, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, patternMoore, 1
