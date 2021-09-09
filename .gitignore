@@ -33,20 +33,20 @@
 # software binary files
 
 /*
-!/*.gitignore
+!.gitignore
 ##
-!*.qpf
-!*.qsf
-!*.qws
-!*.bdf
-!*.vhd
-!*.v
-!*.vs
-!*.ptf
-!*.bsf
-!**/class.ptf
-!*.tbd
-!*.sof
+#*.qpf
+#*.qsf
+#*.qws
+#*.bdf
+#*.vhd
+#*.v
+#*.vs
+#*.ptf
+#*.bsf
+#**/class.ptf
+#*.tbd
+#*.sof
 ## tbd
 
 !*.tcl
